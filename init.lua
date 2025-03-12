@@ -1,14 +1,8 @@
 -- init.lua: Entry point for VSNvim configuration
+-- VSNvim - Main Config File
 
--- Load basic settings
-require("vsnvim.settings")
+require("vsnvim.settings")  -- Load settings
+require("vsnvim.mappings")  -- Load keybindings
+require("vsnvim.plugins")   -- Load plugins
 
--- Load key mappings (including VS Code keybindings)
-require("vsnvim.mappings")
-
--- Set up plugins
-require("vsnvim.plugins")
-
--- Load theme (default: Catppuccin)
-require("vsnvim.theme")
 
